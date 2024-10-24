@@ -1,0 +1,22 @@
+.cardWrapper {
+  background-color: azure;
+  width: 22%; /* Adjust this value based on your layout */
+  height: 70vh; /* Adjust height as needed */
+  flex-shrink: 0; /* Prevents cards from shrinking */
+  /* Add padding and margin if needed */
+  margin: auto;
+ 
+}
+
+
+.cardInner{
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

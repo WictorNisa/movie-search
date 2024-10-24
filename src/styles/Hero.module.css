@@ -1,0 +1,22 @@
+:root {
+  --lavender-floral: #aa86e1ff;
+  --wisteria: #b2a9e5ff;
+  --grape: #5937c1ff;
+  --rich-black: #0d0c1eff;
+  --dark-purple: #221b38ff;
+  --blue-violet: #8040f7ff;
+}
+
+
+
+.hero {
+  background-color: var(--wisteria);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}

@@ -1,0 +1,26 @@
+.movieSection {
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  display: flex; /* Display items in a row */
+
+  position: relative; /* For positioning arrows */
+  gap: 10px; /* Space between movie cards */
+  overflow: hidden; /* Hides overflow to create a carousel effect */
+}
+
+.cardsContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex; /* Display items in a row */
+}
+
+.rightButton {
+  margin: auto 0 auto 0;
+  height: 100px;
+}
+
+.leftButton {
+  margin: auto 0 auto 0;
+  height: 100px;
+}
